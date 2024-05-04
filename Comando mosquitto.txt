@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=5rHWeV0dwxo&t=486s
+
+netsh interface portproxy add v4tov4 listenaddress=192.168.1.93 listenport=1883 connectaddress=127.0.0.1 connectport=1883
+
+netsh interface portprox show all
